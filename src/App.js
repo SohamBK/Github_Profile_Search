@@ -39,6 +39,7 @@ const App = () => {
         <Header/>
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/Github_Profile_Search" element = {<Home />} />
           <Route exact path="/signin" element={<SignIn />} />
           <Route exact path="/signup" element={<SignUp />} />
           <Route exact path="*" element={<PageNotFound />} />
